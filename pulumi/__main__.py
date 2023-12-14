@@ -48,7 +48,7 @@ bucket_policy = s3.BucketPolicy("bucket-policy",
     policy=public_read_policy_for_bucket(bucket.id), 
     opts=ResourceOptions(depends_on=[public_access_block]))
 
-zone = route53.get_zone(name=f"{domain_name}.",
+zone = route53.get_zone(name=f"{os.environ.get('DOMAIN_NAME')}.",
     private_zone=False)
 
 assigned_record = route53.Record("cv",
