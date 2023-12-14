@@ -1,0 +1,6 @@
+name: cv
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Minimal cv web site based on AWS S3
