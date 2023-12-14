@@ -1,0 +1,251 @@
+{
+  "name": "Artem Tkachuk",
+  "meta": {
+    "format": "FRESH@0.6.0",
+    "version": "0.1.0"
+  },
+  "info": {
+    "label": "DevOps engineer",
+    "brief": "DevOps engineer",
+    "image": ""
+  },
+  "contact": {
+    "website": "http://cv.4ownops.click/",
+    "phone": "+381631211297",
+    "email": "tomas.vkz@gmail.com",
+    "other": [
+      {
+        "label": "pdf",
+        "category": "pdf",
+        "value": "https://en.wikipedia.org/wiki/Special:Random"
+      }
+    ]
+  },
+  "location": {
+    "city": "Belgrade",
+    "country": "Serbia"
+  },
+  "social": [
+    {
+      "label": "github",
+      "network": "GitHub",
+      "user": "4ownops",
+      "url": "https://github.com/4ownops"
+    },
+    {
+      "label": "linkedin",
+      "network": "LinkiedIn",
+      "user": "artem-tka4uk",
+      "url": "https://www.linkedin.com/in/artem-tka4uk/"
+    }
+  ],
+  "employment": {
+    "summary": "",
+    "history": [
+      {
+        "employer": "DataArt",
+        "url": "http://dataart.com",
+        "position": "DevOps engineer",
+        "summary": "Participated in ETL-banking system and Healthcare portal projects.",
+        "start": "2022-01",
+        "keywords": [],
+        "highlights": [
+          "Developed manage pipeline for secured variables.",
+          "Participated in failover tasks(healthcheck tests, writed changing states function)",
+          "Extracted userdata terraform module and changed for the project needs.",
+          "Integrated datadog alerts(Lambdas and instances monitoring, custom event processing)",
+          "Moved project from 2016 win server to the latest.",
+          "Developed packer pipeline for creating project-owned os-image.",
+          "Automated notifications for alerts and deploys.",
+          "Moved manual infra creation to IaC.",
+          "Developed multiregional infrastructure using terraform."
+        ]
+      },
+      {
+        "employer": "Mysale group",
+        "url": "https://www.mysalegroup.com/",
+        "position": "DevOps engineer",
+        "summary": "Supported, upgraded and developed infrastucture based in AWS and Azure cloud providers for leading in AU-region marketplace.",
+        "start": "2018-04",
+        "end": "2021-12",
+        "keywords": [],
+        "highlights": [
+          "Participated in production environment migration from local AU datacenter to AWS.",
+          "Developed and implemented tool which deployed aws lambda on-demand by small config file.",
+          "Moved all production databases from legacy MSSQL-cluster to the new one with setting up mirroring and log-shipping for accessing to the prod-data for analysis.",
+          "Implemented monitoring using NewRelic and DataDog.",
+          "Implemented packer for ec2 images creation",
+          "Deployed k8s cluster for dev environment using kops"
+        ]
+      },
+      {
+        "employer": "Autoconnex monitoring",
+        "url": "https://autoconnex.ru/",
+        "position": "IT system engineer",
+        "summary": "Supported servers and office infrastructure in satellite car monitoring company",
+        "start": "2015-09",
+        "end": "2018-03",
+        "keywords": [],
+        "highlights": [
+          "Developed windows application for bar-code generation using C#",
+          "Builded rack servers and moved all servers to server-rack",
+          "Was responsible for technical part of opening company branches"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "summary": "Optional overall education summary. Not used in most themes.",
+    "level": "incomplete",
+    "degree": "Computer science",
+    "history": [
+      {
+        "institution": "PetrSU",
+        "title": "Computer Science",
+        "url": "http://petrsu.ru",
+        "start": "2010-09",
+        "end": "2014-06",
+        "grade": "3.5",
+        "summary": "Incomplete to write diploma",
+        "curriculum": [
+          "Data Algorithms",
+          "Programming languages(C#)",
+          "Networks",
+          "Physics"
+        ]
+      },
+      {
+        "institution": "College",
+        "title": "Electronics assembly",
+        "url": "https://www.kpk-karelia.ru/",
+        "start": "2009-09",
+        "end": "2012-06",
+        "grade": "3.5",
+        "summary": "Secondary professional education",
+        "curriculum": []
+      }
+    ]
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "Cloud providers",
+        "level": "advanced",
+        "skills": [
+          "AWS",
+          "Azure"
+        ]
+      },
+      {
+        "name": "CI/CD tools",
+        "level": "advanced",
+        "skills": [
+          "TeamCity",
+          "Octopus",
+          "Gitlab",
+          "Github-actions"
+        ]
+      },
+      {
+        "name": "IaC tools",
+        "level": "advanced",
+        "skills": [
+          "Terraform",
+          "Pulumi"
+        ]
+      },
+      {
+        "name": "Configuration management",
+        "level": "advanced",
+        "skills": [
+          "Ansible",
+          "Chef"
+        ]
+      },
+      {
+        "name": "Databases",
+        "level": "advanced",
+        "skills": [
+          "MS SQL",
+          "Redshift",
+          "DynamoDB"
+        ]
+      },
+      {
+        "name": "Monitoring and alerting",
+        "level": "advanced",
+        "skills": [
+          "NewRelic",
+          "DataDog",
+          "PagerDuty",
+          "Grafana",
+          "Prometheus"
+        ]
+      },
+      {
+        "name": "Script languages",
+        "level": "advanced",
+        "skills": [
+          "Python",
+          "powershell",
+          "bash"
+        ]
+      },
+      {
+        "name": "Containers",
+        "level": "advanced",
+        "skills": [
+          "Docker",
+          "Kubernetes",
+          "helm",
+          "docker-compose"
+        ]
+      },
+      {
+        "name": "Other technologies experience",
+        "level": "advanced",
+        "skills": [
+          ".Net Core",
+          "TFS",
+          "Git",
+          "Bitbucket",
+          "Jira",
+          "nuget(baget)",
+          "IIS",
+          "NGINX",
+          "Akamai",
+          "Packer"
+        ]
+      }
+    ],
+    "list": []
+  },
+  "languages": [
+    {
+      "language": "Russian",
+      "level": "native"
+    },
+    {
+      "language": "English",
+      "level": "intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Self-hosting",
+      "summary": "Continuously improve and adding self-hosting applications in free time: https://github.com/4ownops",
+      "keywords": [
+        "jellyfin",
+        "immich"
+      ]
+    },
+    {
+      "name": "Skateboarding",
+      "summary": "Regular visitor of skate-parks."
+    },
+    {
+      "name": "Soccer",
+      "summary": "Playing with the local team in Belgrade."
+    }
+  ]
+}

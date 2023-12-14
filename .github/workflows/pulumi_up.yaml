@@ -1,0 +1,34 @@
+name: Pulumi Up
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update:
+    name: Update
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - run: | 
+          sudo apt install python3-pip python3-cffi python3-brotli libpango-1.0-0 libharfbuzz0b libpangoft2-1.0-0
+          npm install hackmyresume
+          hackmyresume build ArtemTkachuk.json TO pulumi/out/index.html pulumi/out/ArtemTkachuk.pdf
+          cd pulumi
+          pip install -r requirements.txt
+      - name: Configure AWS credentials from Test account
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ASSUMED_ROLE }}
+          aws-region: eu-central-1
+      - uses: pulumi/actions@v4
+        with:
+          work-dir: pulumi
+          command: up
+          stack-name: cv/prod
+        env:
+          DOMAIN_NAME: ${{ secrets.DOMAIN_NAME }}
+
+      
