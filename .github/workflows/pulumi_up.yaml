@@ -23,7 +23,7 @@ jobs:
           npm install hackmyresume -g
       - run: | 
           sudo apt install python3-pip python3-cffi python3-brotli libpango-1.0-0 libharfbuzz0b libpangoft2-1.0-0
-          hackmyresume build ArtemTkachuk.json TO pulumi/out/index.html pulumi/out/ArtemTkachuk.pdf
+          hackmyresume build ArtemTkachuk.json TO pulumi/out/index.html pulumi/out/ArtemTkachuk.pdf --theme compact
           cd pulumi
           pip install -r requirements.txt
       - name: Configure AWS credentials
@@ -34,7 +34,7 @@ jobs:
       - uses: pulumi/actions@v4
         with:
           work-dir: pulumi
-          command: preview
+          command: up
           stack-name: 4ownops/prod
         env:
           DOMAIN_NAME: ${{ secrets.DOMAIN_NAME }}
