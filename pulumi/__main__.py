@@ -10,6 +10,7 @@ content_dir = "out"
 domain_name = f"cv.{os.environ.get('DOMAIN_NAME')}"
 bucket = s3.Bucket(
     domain_name,
+    bucket=domain_name
     website=s3.BucketWebsiteArgs(
         index_document="index.html"
         )
