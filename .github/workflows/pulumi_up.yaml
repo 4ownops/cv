@@ -34,9 +34,8 @@ jobs:
       - uses: pulumi/actions@v4
         with:
           work-dir: pulumi
-          command: up
+          command: preview
           stack-name: cv/prod
         env:
           DOMAIN_NAME: ${{ secrets.DOMAIN_NAME }}
-
-      
+          PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}
