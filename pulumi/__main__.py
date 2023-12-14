@@ -3,13 +3,13 @@
 import os
 import mimetypes
 from pulumi_aws import s3, route53
-from pulumi import get_stack, FileAsset, Output, ResourceOptions, Config
+from pulumi import FileAsset, Output, ResourceOptions, Config
 
 config = Config()
 content_dir = "out"
-domain_name = os.environ.get('DOMAIN_NAME')
+domain_name = f"cv.{os.environ.get('DOMAIN_NAME')}"
 bucket = s3.Bucket(
-    f'artemtkachuk-cv-{get_stack()}',
+    domain_name,
     website=s3.BucketWebsiteArgs(
         index_document="index.html"
         )
@@ -53,7 +53,7 @@ zone = route53.get_zone(name=f"{domain_name}.",
 
 assigned_record = route53.Record("cv",
     zone_id=zone.zone_id,
-    name=f"cv.{zone.name}",
+    name=domain_name,
     type="CNAME",
     ttl=300,
     records=[bucket.website_endpoint]
