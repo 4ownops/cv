@@ -14,9 +14,8 @@ jobs:
           python-version: '3.10'
       - uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 14
       - run: |
-          npm cache clean
           npm install hackmyresume -g
       - run: | 
           sudo apt install python3-pip python3-cffi python3-brotli libpango-1.0-0 libharfbuzz0b libpangoft2-1.0-0
