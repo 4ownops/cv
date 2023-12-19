@@ -44,7 +44,7 @@
     "history": [
       {
         "employer": "DataArt",
-        "url": "http://dataart.com",
+        "url": "https://dataart.com",
         "position": "DevOps engineer",
         "summary": "Participated in ETL-banking system and Healthcare portal projects.",
         "start": "2022-01",
@@ -96,7 +96,7 @@
   },
   "education": {
     "summary": "Optional overall education summary. Not used in most themes.",
-    "level": "incomplete",
+    "level": "incompleted",
     "degree": "Computer science",
     "history": [
       {
@@ -106,7 +106,7 @@
         "start": "2010-09",
         "end": "2014-06",
         "grade": "3.5",
-        "summary": "Incomplete to write diploma",
+        "summary": "Incompleted",
         "curriculum": [
           "Data Algorithms",
           "Programming languages(C#)",
