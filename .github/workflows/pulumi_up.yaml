@@ -27,7 +27,7 @@ jobs:
           wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6.1-2/wkhtmltox_0.12.6.1-2.jammy_amd64.deb
           sudo dpkg -i wkhtmltox_0.12.6.1-2.jammy_amd64.deb
           hackmyresume build ArtemTkachuk.json TO $html_dir/index.html $html_dir/ArtemTkachuk_DevOps.pdf --theme compact
-          sed -e '/<body>/a <center><a href="http://cv.4ownops.click/ArtemTkachuk_DevOps.pdf">Download resume as PDF</a></center>' $html_dir/index.html
+          sed -i '/<body>/a <center><a href="http://cv.4ownops.click/ArtemTkachuk_DevOps.pdf">Download resume as PDF</a></center>' $html_dir/index.html
           cd pulumi
           pip install -r requirements.txt
       - name: Configure AWS credentials
