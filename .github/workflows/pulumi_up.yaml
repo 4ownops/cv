@@ -23,6 +23,7 @@ jobs:
           npm install hackmyresume -g
       - run: | 
           html_dir="pulumi/out"
+          sudo apt install xfonts-75dpi xfonts-base
           wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6.1-2/wkhtmltox_0.12.6.1-2.jammy_amd64.deb
           sudo dpkg -i wkhtmltox_0.12.6.1-2.jammy_amd64.deb
           hackmyresume build ArtemTkachuk.json TO $html_dir/index.html $html_dir/ArtemTkachuk_DevOps.pdf --theme compact
