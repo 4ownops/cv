@@ -11,7 +11,6 @@
   },
   "contact": {
     "website": "http://cv.4ownops.click",
-    "phone": "+995599907629",
     "email": "tomas.vkz@gmail.com",
     "other": [
       {
@@ -22,8 +21,8 @@
     ]
   },
   "location": {
-    "city": "Tbilisi",
-    "country": "Georgia"
+    "city": "Belgrade",
+    "country": "Serbia"
   },
   "social": [
     {
@@ -50,15 +49,21 @@
         "start": "2022-01",
         "keywords": [],
         "highlights": [
-          "Developed manage pipeline for secured variables.",
+          "Developed, implementied and supported common Gitlab pipeline for whole organization",
+          "Generatied scripts using bash and python",
+          "Writing golang tools",
+          "Migrated gitlab registry to artifactory",
+          "Set up k8s clusters for runners",
+          "Managed AWS infrustructure with terraform",
+          "Builded and deployed docker images with kaniko and helm charts",
           "Participated in failover tasks(healthcheck tests, writed changing states function)",
-          "Extracted userdata terraform module and changed for the project needs.",
+          "Extracted userdata terraform module and changed for the project needs",
           "Integrated datadog alerts(Lambdas and instances monitoring, custom event processing)",
-          "Moved project from 2016 win server to the latest.",
-          "Developed packer pipeline for creating project-owned os-image.",
-          "Automated notifications for alerts and deploys.",
-          "Moved manual infra creation to IaC.",
-          "Developed multiregional infrastructure using terraform."
+          "Moved project from 2016 win server to the latest",
+          "Developed packer pipeline for creating project-owned os-image",
+          "Automated notifications for alerts and deploys",
+          "Moved manual infra creation to IaC",
+          "Developed multiregional infrastructure using terraform"
         ]
       },
       {
@@ -132,8 +137,7 @@
         "name": "Cloud providers",
         "level": "advanced",
         "skills": [
-          "AWS",
-          "Azure"
+          "AWS"
         ]
       },
       {
@@ -142,8 +146,7 @@
         "skills": [
           "TeamCity",
           "Octopus",
-          "Gitlab",
-          "Github-actions"
+          "Gitlab"
         ]
       },
       {
@@ -205,7 +208,7 @@
         "name": "Other technologies experience",
         "level": "advanced",
         "skills": [
-          ".Net Core",
+          "golang",
           "TFS",
           "Git",
           "Bitbucket",
@@ -214,7 +217,8 @@
           "IIS",
           "NGINX",
           "Akamai",
-          "Packer"
+          "Packer",
+          "Artifactory"
         ]
       }
     ],
@@ -233,7 +237,7 @@
   "interests": [
     {
       "name": "Self-hosting",
-      "summary": "Continuously improve and adding self-hosting applications in free time: https://github.com/4ownops",
+      "summary": "Continuously improve and add self-hosted applications in a free time: https://github.com/4ownops",
       "keywords": [
         "jellyfin",
         "immich"
