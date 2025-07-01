@@ -70,17 +70,18 @@
         "employer": "Mysale group",
         "url": "https://www.mysalegroup.com/",
         "position": "DevOps engineer",
-        "summary": "Supported, upgraded and developed infrastucture based in AWS and Azure cloud providers for leading in AU-region marketplace.",
+        "summary": "Supported, upgraded and developed infrastucture based in AWS and Azure cloud providers for leading in AU-region marketplace",
         "start": "2018-04",
         "end": "2021-12",
         "keywords": [],
         "highlights": [
-          "Participated in production environment migration from local AU datacenter to AWS.",
-          "Developed and implemented tool which deployed aws lambda on-demand by small config file.",
-          "Moved all production databases from legacy MSSQL-cluster to the new one with setting up mirroring and log-shipping for accessing to the prod-data for analysis.",
-          "Implemented monitoring using NewRelic and DataDog.",
+          "Participated in production environment migration from local AU datacenter to AWS",
+          "Developed and implemented tool which deployed aws lambda on-demand by small config file using pulumi and python",
+          "Moved all production databases from legacy MSSQL-cluster to the new one with setting up mirroring and log-shipping for accessing to the prod-data",
+          "Implemented monitoring using NewRelic and DataDog",
           "Implemented packer for ec2 images creation",
-          "Deployed k8s cluster for dev environment using kops"
+          "Deployed k8s cluster for dev environment using kops",
+          "Builded site-to-site IPsec VPN between AWS accounts and office firewall"
         ]
       },
       {
@@ -94,7 +95,9 @@
         "highlights": [
           "Developed windows application for bar-code generation using C#",
           "Builded rack servers and moved all servers to server-rack",
-          "Was responsible for technical part of opening company branches"
+          "Was responsible for technical part of opening company branches",
+          "Set up new working places in a call center and managed them with Active Directory",
+          "Communicated with ISP\VoIP provider in cases of problem and new connection"
         ]
       }
     ]
@@ -205,7 +208,7 @@
         ]
       },
       {
-        "name": "Other technologies experience",
+        "name": "Other",
         "level": "advanced",
         "skills": [
           "golang",
@@ -218,7 +221,8 @@
           "NGINX",
           "Akamai",
           "Packer",
-          "Artifactory"
+          "Artifactory",
+          "Azure"
         ]
       }
     ],
@@ -249,7 +253,7 @@
     },
     {
       "name": "Soccer",
-      "summary": "Playing with the local team."
+      "summary": "Playing in a local team."
     }
   ]
 }
